@@ -1,0 +1,125 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+   
+}
+
+header,.searchbar
+{
+    display: flex;
+    justify-content: center;
+    height:90px;
+}
+header{
+    box-shadow: 3px 10px 10px 5px rgb(0 0 0 / 6%);
+        position: sticky;
+        top:0;
+        background: white;  
+}
+.head,.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:95%;
+    align-items: center;
+}
+.headRight >a{
+ text-decoration: none;
+ font-weight: 600;
+ font-size:30px;
+ padding-left:10px;
+ color:black;
+}
+.form{
+    margin:15px;
+    border: 1px solid black;
+    height:50px;
+    padding: 5px;
+}
+
+.form > input{
+    border: none;  
+    background: transparent; 
+  
+}
+input:focus {
+  outline: none !important;
+}
+content > div {
+    height: 50px;
+  }
+
+.allShips{
+    display: flex;
+    justify-content: center;
+}
+  .ships{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .shipsCard{
+    display: flex;
+    flex-wrap: wrap; 
+   
+  }
+
+  .card{
+    height:320px;
+    width:300px;
+    border-bottom: 1px solid rgb(107, 101, 101);
+    margin:12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card > img{
+    width:100%;
+    height:60%;
+    
+  }
+
+  .details{
+    line-height:25px;
+    font-size:10px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .button{
+    width:100%;
+    height:30px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    border: none;  
+  }
+  
+
+  .text > span{
+    margin-left:10px;
+    font-size: 15px;
+    color:black;
+  }
+  .text{
+    color:gray;
+
+  }
+
+ .searchTab{
+  display: flex;
+  justify-content: center;
+  position:relative;
+ }
+.searchBox{
+  position: absolute;
+  width:96%;
+  line-height:30px;
+  background-color: white;
+  box-shadow: 0.3vmin 0.2vmin 0.5vmin 0.6vmin rgb(0 0 0 / 6%);
+}
+
+

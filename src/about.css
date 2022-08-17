@@ -1,0 +1,51 @@
+
+.about{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    color:white;
+}
+.about >div{
+    width:80%;
+}
+
+.top{
+    display: flex;
+}
+.image{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background-image: url(/src/assets/about.jpeg);
+    background-size: cover;
+}
+.rightContent{
+    margin-left: 30px;
+   
+   
+}
+.rightContent >h5{
+    color:rgb(102, 98, 98);
+    margin-top:0;
+}
+.rightContent>h1{
+    margin-bottom: 0;
+}
+
+.para{
+    line-height: 30px;
+    font-style: italic;
+}
+
+.techstacks > button{
+    background-color: rgb(102, 98, 98);
+    color: white;
+    border: none;
+    height: 25px;
+    margin:2px;
+    border-radius: 5px;
+}
